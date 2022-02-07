@@ -321,7 +321,6 @@ def encrypt(pt, rkb, rk):
     return [cipher_text,ciphers]
 
 
-**(i) Code for plotting avalanche effect across DES rounds for 5 different plaintexts.**
 
 
 key = "1B1B491827367CDC"    # 64 bit key 
@@ -366,10 +365,8 @@ plt.ylabel('Hamming Distance')
 plt.ylim(1,50)
 plt.show()
 
-"""### Basic input and output
 
-**(ii) Code for plotting avalanche effect across DES rounds for 5 different hamming distances.**
-"""
+
 
 # the plaintext lists here has different hamming distances from the parent plaintext
 key = "1B1B491827367CDC"   # 64 bit key 
@@ -414,7 +411,6 @@ plt.ylabel('Hamming Distance')
 plt.ylim(1,50)
 plt.show()
 
-"""**(iii) Code for plotting avalanche effect across DES rounds for 5 different secret keys.**"""
 
 par_key =  "1B1B491827367CDC"    # 64 bit key 
 plaintext = '1AB456BBCD482536'
